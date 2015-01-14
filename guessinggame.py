@@ -2,7 +2,7 @@ import random
 
 print "Hello!"
 name = raw_input("What's your name?")
-print "Guess a random number between 1-100!"
+print "Guess a random integer between 1-100!"
 
 correct_number = random.randint(1,101)
 
