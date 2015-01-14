@@ -9,7 +9,7 @@ correct_number = random.randint(1,101)
 while True:
     g_guess = raw_input("Your guess?")
     try:
-        number = int(g_guess)
+        number = float(g_guess)
         if number > 100 or number < 1:
             print "1 AND 100!!!"
         else:
